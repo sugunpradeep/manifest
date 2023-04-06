@@ -5,9 +5,9 @@
 -->
 <manifest>
 <!-- include all the common repositories, we just want to define the kernel -->
-<remote fetch="https://github.com/sugunpradeep" name="origin"/>
+<remote fetch="git@github.com:sugunpradeep" name="origin"/>
 <default remote="origin" sync-j="4" revision="master"/>
 <!--<include name="common.xml"/>-->
-<project name="kernel" path="kernel"/>
-<project name="openssl" path="openssl"/>
+<project name="kernel" path="linux_kernel"/>
+<project name="openssl" path="sugun_openssl"/>
 </manifest>
