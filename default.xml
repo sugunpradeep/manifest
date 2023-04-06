@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     Copyright 2018, Data61, CSIRO
+     SPDX-License-Identifier: BSD-2-Clause
+-->
+<manifest>
+<!-- include all the common repositories, we just want to define the kernel -->
+<remote fetch="https://github.com/sugunpradeep" name="origin"/>
+<default remote="origin" sync-j="4" revision="master"/>
+<!--<include name="common.xml"/>-->
+<project name="kernel" path="kernel"/>
+<project name="openssl" path="openssl"/>
+</manifest>
